@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #48d4ac;
+}
+header h4 {
+  font-weight: 700;
+}
+.error-msg {
+  font-size: 10px;
+  color: red;
+}
+.l {
+  border-right: 3px solid #48d4ac;
+  margin-top: 30px;
+  padding-left: 70px !important;
+}
+.container-fluid .col-md-10 {
+  padding-right: 190px !important;
+  padding-left: 60px !important;
+}
+.container-fluid .form-group label {
+  padding-right: 0 !important;
+}
+.container-fluid .form-group input {
+  border: 1px solid black;
+}
+/* Part-2 */
+.container .row {
+  margin-left: 70px;
+  margin-right: 20px;
+}
+.container .table-success {
+  background-color: white;
+}
+.container .table {
+  border: 1px solid darkgreen;
+}
+.container .show {
+  max-height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.container .row .col-8 {
+  padding-left: 5px;
+}
+.container .row .col-4 {
+  padding-left: 5px;
+}
+.container .row .col-8 h6 {
+  margin-top: 5px;
+}
+.container .row .col-4 h6 {
+  margin-top: 5px;
+}
+.row .col-8 {
+  background-color: #a8cc44;
+  border: 1px solid #71922b;
+  color: white;
+}
+.row .col-4 {
+  background-color: #a8cc44;
+  border: 1px solid #71922b;
+  color: white;
+}
+.card {
+  border: none !important;
+}
+.card-body {
+  padding: 0 !important;
+}
+.card-body p {
+  margin-bottom: 0 !important;
+}
+.row .card .col-8 {
+  color: black;
+}
+.card .col-8 {
+  border: none !important;
+}
+.card-body .card-name {
+  font-weight: 500;
+}
+.card-body .card-text {
+  font-size: 13px;
+}
+.card .img {
+  text-align: center;
+  margin: 10px 0px;
+  object-fit: fill;
+}
+.card img {
+  height: 100px;
+  width: auto;
+}
+footer {
+  background-color: #48d4ac;
+  color: white;
+  padding-bottom: 3px;
+  margin-top: 100px;
+}
+
+/* media query start */
+@media (max-width: 768px) {
+  /* part-1 */
+  .l {
+    margin-top: 30px;
+    padding-left: 20px !important;
+  }
+  .container-fluid .col-md-10 {
+    padding-right: 20px !important;
+    padding-left: 15px !important;
+  }
+  /* part-2 */
+  .container .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
